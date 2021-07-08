@@ -5,8 +5,7 @@ import PackageDescription
 let package = Package(
         name: "PDFGenerator",
         platforms: [
-            .iOS(.v10),
-            .macOS(.v11)
+            .iOS(.v10)
         ],
         products: [
             .library(name: "PDFGenerator", targets: ["PDFGenerator"])
